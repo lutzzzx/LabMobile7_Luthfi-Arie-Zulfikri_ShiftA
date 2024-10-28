@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title text-center> Jadwal Kuliah </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="light">
+  <ion-card class="schedule-card">
+    <ion-card-header>
+      <ion-card-title>Senin</ion-card-title>
+    </ion-card-header>
+
+    <ion-list>
+      <ion-item>
+        <ion-icon name="phone-portrait" slot="start"></ion-icon>
+        <ion-label>Pemrograman Mobile</ion-label>
+        <ion-note slot="end">08:00 - 09:30</ion-note>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-icon name="clipboard" slot="start"></ion-icon>
+        <ion-label>Manajemen Proyek Informatika</ion-label>
+        <ion-note slot="end">10:00 - 11:30</ion-note>
+      </ion-item>
+    </ion-list>
+  </ion-card>
+
+  <ion-card class="schedule-card">
+    <ion-card-header>
+      <ion-card-title>Selasa</ion-card-title>
+    </ion-card-header>
+
+    <ion-list>
+      <ion-item>
+        <ion-icon name="lock-closed" slot="start"></ion-icon>
+        <ion-label>Kriptografi</ion-label>
+        <ion-note slot="end">08:00 - 09:30</ion-note>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-icon name="flask" slot="start"></ion-icon>
+        <ion-label>Praktikum Pemrograman Mobile</ion-label>
+        <ion-note slot="end">10:00 - 11:30</ion-note>
+      </ion-item>
+    </ion-list>
+  </ion-card>
+</ion-content>
